@@ -118,8 +118,6 @@ public class PlayerController : MonoBehaviour
         {
             _isOnGround = true;
             _jumpCount = 0;
-
-            GameManager.Instance.AddScore();
         }
 
         // 바닥에 닿았음을 감지하는 처리
